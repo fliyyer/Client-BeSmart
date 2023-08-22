@@ -1,0 +1,46 @@
+/* Sign-in */
+.history-order .img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+.history-order .bg-blue{
+    background-color: #1A1640;
+}
+
+.history-order input[type="password"],
+.history-order input[type="email"]{
+    border: 1px solid #0C145A;
+    padding: 0.75rem 1.625rem;
+    color: #0C145A;
+}
+
+.history-order input[type="password"]:focus-within,
+.history-order input[type="email"]:focus-within{
+    color: #0C145A;
+}
+
+.history-order input[type="password"]::placeholder,
+.history-order input[type="email"]::placeholder{
+    color: #CCD0DD;
+}
+
+.history-order .btn-history-order{
+    padding: 0.75rem;
+    background-color: #4D17E2;
+}
+
+
+.history-order .button-group{
+    width: 100%;
+}
+
+@media (min-width: 992px){
+    .history-order .container,
+    .history-order input[type="password"],
+    .history-order input[type="email"]{
+        max-width: 437px;
+    }
+    }
+
+/*  */
