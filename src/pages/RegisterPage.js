@@ -9,7 +9,7 @@ function RegisterPage() {
         <form action="">
           <div class="pb-50">
             <a class="navbar-brand" href="../index.html">
-              <img src={LogoImg} width="80" height="80" />
+              <img src={LogoImg} alt="Logo Brand" width="80" height="80" />
             </a>
           </div>
           <h2 class="text-4xl fw-bold color-palette-1 mb-10">Sign Up</h2>

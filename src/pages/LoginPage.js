@@ -1,4 +1,4 @@
-/* eslint-disable jsx-a11y/img-redundant-alt */
+/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import LoginImg from "../assets/image/computer.png";
 import LogoImg from "../assets/image/logoHTA.png";
@@ -12,7 +12,7 @@ function LoginPage() {
           <div class="container mx-auto">
             <div class="pb-50">
               <a class="navbar-brand" href="../index.html">
-                <img src={LogoImg} width="80" height="80" />
+                <img src={LogoImg} alt="Logo Brand" width="80" height="80" />
               </a>
             </div>
             <h2 class="text-4xl fw-bold color-palette-1 mb-10">Sign In</h2>

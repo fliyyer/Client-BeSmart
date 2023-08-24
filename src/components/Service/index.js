@@ -13,7 +13,7 @@ function Service() {
         <div className="row gap-lg-0 gap-4" data-aos="fade-up">
           <div className="col-lg-4">
             <div className="card feature-card border-0">
-              <img src={iconOne} className="mb-30" width="100" height="100" />
+              <img src={iconOne} alt="Icon" className="mb-30" width="100" height="100" />
               <p className="fw-semibold text-2xl mb-2 color-palette-1">
                 Website & Aplication Development
               </p>
@@ -26,7 +26,7 @@ function Service() {
           </div>
           <div className="col-lg-4">
             <div className="card feature-card border-0">
-              <img src={iconTwo} className="mb-30" width="100" height="100" />
+              <img src={iconTwo} alt="Icon" className="mb-30" width="100" height="100" />
               <p className="fw-semibold text-2xl mb-2 color-palette-1">
                 Consultation
               </p>
@@ -39,7 +39,7 @@ function Service() {
           </div>
           <div className="col-lg-4">
             <div className="card feature-card border-0">
-              <img src={iconThree} className="mb-30" width="100" height="100" />
+              <img src={iconThree} alt="Icon" className="mb-30" width="100" height="100" />
               <p className="fw-semibold text-2xl mb-2 color-palette-1">
                 Design
               </p>
